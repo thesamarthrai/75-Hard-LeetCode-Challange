@@ -4,8 +4,6 @@ class Solution {
 public:
     long long minimumMoney(vector<vector<int>>& t) 
     {
- 
-        
         long long money=0;
         long long ans =0;
         vector<int>v;
@@ -15,7 +13,7 @@ public:
             ans = max(ans,1LL*t[i][0]);
          
         }
-        
+        // This is a new comment
         int n = t.size();
         for(int i=0;i<n;i++)
         {
